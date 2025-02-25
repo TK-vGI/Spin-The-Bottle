@@ -1,0 +1,55 @@
+/*Input styles*/
+label {
+    display: block;
+    font-size: 14pt;
+}
+input {
+    font-size: 12pt;
+    height: 30px;
+}
+button#add-player {
+    background-color: lightgrey;
+    color: black;
+    font-size: large;
+    margin-left: 0;
+    padding: .4rem;
+    border: none;
+    border-radius: .3rem;
+    width: auto;
+    height: 34px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    text-align: center;
+}
+button#add-player:hover {
+    background-color: dimgrey;
+    color: white;
+}
+
+div#content {
+    font-size: 14pt;
+}
+ul#players {
+    font-size: 14pt;
+    margin-left: 30px;
+}
+
+/*Button styles*/
+button#spin {
+    background-color: lightskyblue;
+    color: black;
+    font-size: large;
+    margin-left: 1rem;
+    padding: .4rem;
+    border: none;
+    border-radius: .3rem;
+    width: 60px;
+    height: 34px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    text-align: center;
+}
+button#spin:hover {
+    background-color: dodgerblue;
+    color: white;
+}
